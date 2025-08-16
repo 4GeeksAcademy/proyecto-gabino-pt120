@@ -1,0 +1,37 @@
+.post{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*Ajusta el centro*/
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon-menu {
+  margin-left: auto; /*Empuja hacia el extremo derecho el 
+                       último icono*/
+}
+
+.post-image{
+    display: flex;
+    height: 300px;
+    object-fit: cover; /*Recorta la imagen para llenar el contenedor*/
+}
+
+.post-body{
+  margin-top: 10px;
+}
+
+.post-body-icon {
+  display: flex;
+  align-items: center;
+}
+
+.post-body-icon-bookmark {
+  margin-left: auto; /*Empuja hacia el extremo derecho el 
+                       último icono*/
+}
+
