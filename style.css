@@ -3,6 +3,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /*Ajusta el centro*/
+  border: solid;
+  width: 533px;
 }
 
 .post-header {
@@ -17,6 +19,7 @@
 
 .post-image{
     display: flex;
+    justify-content: center;
     height: 300px;
     object-fit: cover; /*Recorta la imagen para llenar el contenedor*/
 }
